@@ -1,0 +1,38 @@
+.hero-info {
+	max-width: 430px;
+	margin-top: 150px;
+}
+
+.hero-header {
+	font-size: 54px;
+	font-weight: 500;
+	line-height: 1.11;
+	color: #f9f9fa;
+	font-family: MarkPro-Medium;
+	text-transform: uppercase;
+}
+
+.hero-paragraph {
+	font-family: Rubik-Light;
+	font-size: 16px;
+	line-height: 1.5;;
+	color: #f9f9fa;
+	margin: 10px 0 30px 0;
+}
+
+.buttons {
+	display: flex;
+}
+
+.button {
+	width: 154px;
+	display: block;
+}
+
+.firstb {
+	margin-right: 20px;
+}
+
+.link {
+	display: block;
+}

@@ -1,0 +1,140 @@
+.question {
+	max-width: 377px;
+	font-family: MarkPro-Light;
+	font-size: 24px;
+	font-weight: 500;
+	line-height: 1.42;
+	color: #f9f9fa;
+	margin-top: 205px;
+}
+
+.cards-all {
+	display: flex;
+	flex-wrap: wrap;
+	margin : 0 -15px;
+}
+
+.card {
+	padding: 15px;
+	position: relative;
+}
+
+.card-first {
+	flex: 0 0 33%;
+	box-sizing: border-box;
+}
+
+.card-other {
+	flex: 0 0 50%;
+	box-sizing: border-box;
+}
+
+.imagine {
+	max-width: 100%;
+}
+
+.store-button {
+	position: absolute;
+	bottom: 45px;
+	right: 35px;
+	display: block;
+}
+
+.button-img {
+	display: block;
+}
+
+.den {
+	position: absolute;
+	font-family: MarkPro-Bold;
+	font-size: 24px;
+	color: #1b1a26;
+	top: 33px;
+}
+
+.psfour {
+	left: 85px;
+}
+
+.xbox {
+	left: 115px;
+}
+
+.appltv {
+	left: 115px;
+}
+
+.roku {
+	left: 285px;
+}
+
+.firetv {
+	left: 285px;
+}
+
+.androidtv {
+	left: 275px;
+}
+
+.switch {
+	left: 315px;
+}
+
+@media only screen and (max-width: 850px) {
+	.cards-all {
+		display: block;
+		margin: 0;
+	}
+
+	.imagine {
+		min-width: 100%;
+		min-height: 100%;
+		object-fit: contain;
+		display: block;
+		max-width: none;
+	}
+
+	.card {
+		margin: 10px auto;
+		padding: 15px;
+		max-width: 330px;
+		height: 275px;
+		overflow: hidden;
+	}
+
+	.store-button {
+		bottom: 35px;
+}
+
+	.roku {
+		left: 195px;
+	}
+
+	.firetv {
+		left: 115px;
+	}
+
+	.androidtv {
+		left: 115px;
+	}
+
+	.switch {
+		left: 115px;
+	}
+}
+
+@media only screen and (max-width: 568px) {
+	.hero-header {
+		font-size: 40px
+	}
+
+	.hero-paragraph {
+		font-size: 14px;
+	}
+
+	.button {
+		width: 134px;
+	}
+
+	
+}

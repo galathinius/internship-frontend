@@ -1,0 +1,10 @@
+.header-wrapper {
+	border-bottom: 2px solid #ffdf00;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.logo {
+	width: 94px;
+}

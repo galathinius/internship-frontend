@@ -1,0 +1,39 @@
+.site-wrapper {
+	display: flex;
+	flex-direction: column;
+	background-color: #1b1a26;
+}
+
+.header-wrapper {
+	height: 70px;
+	background-color: #1b1a26;
+}
+
+.footer-wrapper {
+	background-color: #1b1a26;
+	display: flex;
+}
+
+.main-wrapper {
+	flex: 1;
+	justify-content: center;
+	background-image: url("../assets/vid_bg/vid_bg@2x.png");
+	background-position: top right;
+	background-repeat: no-repeat;
+	background-size: 45%;
+}
+
+.bg-lines {
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0.28;
+	display: block;
+	z-index: -1;
+}
+
+.content {
+	max-width: 1050px;
+	margin: 0 auto;
+	padding: 0 15px;
+}
